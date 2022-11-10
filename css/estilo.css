@@ -1,0 +1,154 @@
+.field a{
+    width: 100%;
+    padding:8px;
+    background-color: #ccc;
+    border-radius: 20px;
+    text-decoration: none;
+    color:black;
+    font-family: Arial;
+}
+.warning{
+    color: red;
+    width: 20%;
+    border-radius: 10px;
+    font-size: 16pt;
+    font-family: Arial;
+}
+.sucess{
+    width: 20%;
+    border-radius: 10px;
+    font-size: 16pt;
+    font-family: Arial;
+    color:green;
+}
+.formulario{
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border:1px solid #ccc;
+    font-family: Arial;
+}
+.field form{
+    margin-bottom: 1%;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+.field .cadastro input{
+    color: black;
+    display: inline-block;
+    width: 15%;
+}
+img{
+  margin: auto;
+  display: block;
+}
+
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label,
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+input[type=endereco],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+input[type=submit]{
+    font-weight: bolder;
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+    @media screen and (max-width: 360px){
+        .formulario{
+        width: 250px;
+        margin: auto;
+        padding: 30px;
+        border:1px solid #ccc;
+        font-family: Arial;
+    }
+    .formulario p{
+        width: 100%;
+        margin-top: 0;
+        font-size: 1.1em;
+        text-align: center;
+        font-weight: bold;
+}
+
+    img{
+        margin: auto;
+        display: block;
+}
+
+    .field{
+        width: 100%;
+        margin: 3% 0;
+}
+    .field label, 
+    .field span{
+        padding-left: 5,8%;
+        font-size: 0.8em;
+        display: block;
+        width: 100%;
+}
+    .radiobox label{
+        width: auto;
+        display: inline-block;
+}
+    input[type=text],
+    input[type=email],
+    input[type=endereco],
+    textarea{
+        width: 100%;
+        padding-left: 10px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        outline: none;
+        font-size: 0.6em;
+}
+    input[type=submit]{
+        font-weight: bolder;
+        display: block;
+        background-color: #ccc;
+        height: 35px;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        width: 100px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 15px;
+}
+    }
